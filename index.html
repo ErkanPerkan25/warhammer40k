@@ -8,6 +8,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
     <title>Warhammer 40K</title>
 <head>
 <body style="background-color: #181928;">
@@ -17,60 +21,113 @@
             <img id="logo" src="images/40k_logo.png" alt="logo">
         </div>
 
-        <div class="row">
-            <div class="col-sm-2">
-
+        <div class="row" id="main">
+            <div class="col-sm-2 order-2">
+                <!--Citation: https://www.pinterest.com/pin/warhammer-40k-mostly--307933693269593076/-->
+                <img src="images/miniature_1.jpg" style="width: 80%; margin-right: 10%; margin-left: 10%; margin-top: 10px;" />
+                
+                <!--Citation: https://jp.pinterest.com/pin/557601997606902977/-->
+                <img src="images/miniature_2.jpg" style="width: 80%; margin-right: 10%; margin-left: 10%; margin-top: 10px;"/>
             </div>
-            <div class="col-sm-8" style="background-color: #7d7e84; color: #f2f2f2;">
+
+            <div class="col-sm-8 order-1" style="background-color: #7d7e84; color: #f2f2f2; font-size: 16px;">
 
                 <h2 class="text-center"><b>In the grim darkness of the far future, there is only war.</b></h2>
                 <!--Citation for text: https://warhammer40000.com-->
-                <p>
+                <p class="text-center">
                    In the 41st Millennium, warring factions from ancient civilisations 
                    and upstart empires fight endless battles across innumerable worlds. 
                    Humanity stands alone, beset on all sides by the heretic, the mutant, 
                    and the alien. There is no mercy. There is no respite. Prepare yourself for battle.
                 </p>
-
                 
-                
-                
-                <div class="container" id="faction_overview">
-                    <div class="card text-center" style="width: 200px;">
-                        <!--Citation for image: https://www.reddit.com/r/40kLore/comments/i3t7to/collection_of_warhammer_40000_svg_faction_icons/-->
-                        <img class="card-img-top" height="100" width="200" src="images/Adeptus Astartes.svg" alt="Adeptus_Astartes"
+                <!--Citation for image: https://www.thegamer.com/warhammer-40k-things-wish-knew-start/-->
+                <img src="images/40k_miniatures.jpg" alt="miniatures"
+                style="width: 80%; margin-right: 10%; margin-left: 10%; 
+                box-shadow: 2px 2px 6px 2px #000000;
+                -webkit-box-shadow: 2px 2px 6px 2px #000000;" />
 
-                        />
-                        <div class="card-body"> 
-                            <h4 class="card-title">Adeptus Astartes <br>(Space Marines)</h4>
+                <div class="text-center" id="hobbies">
+                    <br>
+                    <h2><b>A hobby like no other</b></h2>
+                    <p>Warhammer 40K is a miniature wargame made by Games Workshop. It is the most popular
+                        miniature game in the wolrd. It is set in the grim dark future of mankind where the
+                        Emperor of Mankind sits on the Golden Throne immobile trying to protect the humankind
+                        with his psycheic powers. Humanity works to fight against evil forces.
+                    </p>
+                    <p>
+                        Warhammer 40K is a huge hobby which people can get involved in. Painting miniature for 
+                        showcase or playing the game of it. Colleting miniature, reading the books, and watching 
+                        content of Warhammer 40K.
+                    </p>
+                    <!-- Citation for image: https://asktheman.xyz/-->
+                    <img src="images/painting_hobby.jpg" />
+
+                    <!-- Citation for image: https://gall804virh.blogspot.com/2021/07/warhammer-40k-books-reading-order-40k.html-->
+                    <img src="images/books_hobby.jpg"/>
+
+                    <!-- Citation for image: https://www.the-saleroom.com/en-gb/auction-catalogues/east-bristol-auctions/catalogue-id-sreas10374/lot-46c10a13-934d-4070-9a98-ab3e010c950e-->
+                    <img src="images/collecting_hobby.jpg"/>
+
+                    <!--Citation for image: https://www.dualshockers.com/best-warhammer-40k-games/-->
+                    <img src="images/content_hobby.jpg"/>
+                </div>
+                <br> 
+
+                <div class="container" id="armies_overview">
+                    <h2 class="text-center"><b>The Armies of Warhammer 40K</b></h2>
+                    <div id="armies">
+                        <div class="card text-center" style="width: 170px;">
+                            <!--Citation for image: https://www.reddit.com/r/40kLore/comments/i3t7to/collection_of_warhammer_40000_svg_faction_icons/-->
+                            <img height="100" width="170" src="images/Adeptus Astartes.svg" alt="Adeptus_Astartes" />
+                            <div class="card-body"> 
+                                <h4 class="card-title">Adeptus Astartes <br>(Space Marines)</h4>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="card text-center" style="width: 200px; height: 100px;">
-                        <!--Citation for image: https://www.reddit.com/r/40kLore/comments/i3t7to/collection_of_warhammer_40000_svg_faction_icons/-->
-                        <img height="100" width="200" src="images/Imperium of Man.svg" alt="Imperium_of_Man"
-
-                        />
-                        <div class="card-body"> 
-                            <h4 class="card-title">Arimes of the Imperium<br>()</h4>
+                        <div class="card text-center" style="width: 170px;">
+                            <!--Citation for image: https://www.reddit.com/r/40kLore/comments/i3t7to/collection_of_warhammer_40000_svg_faction_icons/-->
+                            <img height="100" width="170" src="images/Imperium of Man.svg" alt="Imperium_of_Man"/>
+                            <div class="card-body"> 
+                                <h4 class="card-title">Arimes of the Imperium</h4>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="card text-center" style="width: 200px; height: 100px;">
-                        <!--Citation for image: https://www.reddit.com/r/40kLore/comments/i3t7to/collection_of_warhammer_40000_svg_faction_icons/-->
-                        <img height="100" width="200" src="images/Heretic Astartes.svg" alt="Heretic_Astartes"
+                        <div class="card text-center" style="width: 170px;">
+                            <!--Citation for image: https://www.reddit.com/r/40kLore/comments/i3t7to/collection_of_warhammer_40000_svg_faction_icons/-->
+                            <img height="100" width="170" src="images/Heretic Astartes.svg" alt="Heretic_Astartes"
 
-                        />
-                        <div class="card-body"> 
-                            <h4 class="card-title">Forces of Chaos <br>()</h4>
+                            />
+                            <div class="card-body"> 
+                                <h4 class="card-title">Forces of Chaos</h4>
+                            </div>
                         </div>
-                    </div>
-                </div> 
+
+                        <div class="card text-center" style="width: 170px;">
+                            <!--Citation for image: https://www.reddit.com/r/40kLore/comments/i3t7to/collection_of_warhammer_40000_svg_faction_icons/-->
+                            <img height="100" width="170" src="images/Xenos.svg" alt="Xenos"
+
+                            />
+                            <div class="card-body"> 
+                                <h4 class="card-title">Xenos</h4>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
 
             </div>
 
             <div class="col-sm-2">
+                <!--Citation for image: https://uk.pinterest.com/pin/night-lords--558446422551193122/-->
+                <img src="images/miniature_4.jpg" style="width: 80%; margin-right: 10%; margin-left: 10%; margin-top: 10px;"/>
+                <!--Citation for image: https://www.pinterest.com/pin/853291460623885861/-->
+                <img src="images/miniature_3.jpg" style="width: 80%; margin-right: 10%; margin-left: 10%; margin-top: 10px;"/>
             </div>
+        </div>
+        
+        <div class="row" id="footer">
+            
         </div>
 </body>
 </html>
