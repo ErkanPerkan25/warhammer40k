@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!--
+Author: Eric Hansson
+Date: 10/27/2024
+-->
 <html>
 <head>
     <meta charset="uft-8">
@@ -8,13 +12,22 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
 
+    <!--This is the API that gets the font from google and uses it on the website-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
 
+    <!--Used HTML generator to create a icon for the tab on the website (https://htmlcss.tools/)-->
+    <!--Citation for icon: https://www.pinterest.com/pin/637822365971180698/-->
+    <link rel="icon" href="images/icon.png" type="image/x-icon" size="16x16"/>
     <title>Warhammer 40K</title>
 <head>
-<body style="background-color: #181928;">
+<!-- The challenge in this website was to get used to Bootstrap as it was the first time using it.
+But I think the more I use it the better I will become. Bootstrap really gives a very nice framework
+to work with and saved a lot of time to not have write a lot of CSS code. -->
+<!--I struggled to have the website a bit more responsive to smaller view for like mobile and tablets-->
+
+<body>
         <!--Citation for image: https://wallhaven.cc/w/5wllv3 -->
         <div class="row text-center bg-img" id="header">
             <!--Citation for image: https://trade.games-workshop.com/fr/discover-warhammer/-->
@@ -30,7 +43,7 @@
                 <img src="images/miniature_2.jpg" style="width: 80%; margin-right: 10%; margin-left: 10%; margin-top: 10px;"/>
             </div>
 
-            <div class="col-sm-8 " style="background-color: #7d7e84; color: #f2f2f2; font-size: 16px;">
+            <div class="col-sm-8" style="background-color: #7d7e84; color: #f2f2f2; font-size: 16px;">
 
                 <h2 class="text-center"><b>In the grim darkness of the far future, there is only war.</b></h2>
                 <!--Citation for text: https://warhammer40000.com-->
@@ -41,6 +54,8 @@
                    and the alien. There is no mercy. There is no respite. Prepare yourself for battle.
                 </p>
                 
+                <!--For the image the create the box shadow I used the https://htmlcss.tools/ generator to get the image
+                to be floating a little bit-->
                 <!--Citation for image: https://www.thegamer.com/warhammer-40k-things-wish-knew-start/-->
                 <img src="images/40k_miniatures.jpg" alt="miniatures"
                 style="width: 80%; margin-right: 10%; margin-left: 10%; 
@@ -53,13 +68,16 @@
                     <p>Warhammer 40K is a miniature wargame made by Games Workshop. It is the most popular
                         miniature game in the wolrd. It is set in the grim dark future of mankind where the
                         Emperor of Mankind sits on the Golden Throne immobile trying to protect the humankind
-                        with his psycheic powers. Humanity works to fight against evil forces.
+                        with his psycheic powers. Humanity fighting evil forces of chaos and the xenos threats. 
                     </p>
                     <p>
-                        Warhammer 40K is a huge hobby which people can get involved in. Painting miniature for 
+                        Warhammer 40K is a huge hobby that everyone can get involved in. Painting miniature for 
                         showcase or playing the game of it. Colleting miniature, reading the books, and watching 
-                        content of Warhammer 40K.
+                        content of Warhammer 40K. There is always something you can do with Warhammer.
                     </p>
+
+                    <!--For the images I created the box shadow with https://htmlcss.tools/ generator to get the image
+                    to be floating feeling to them-->
                     <!-- Citation for image: https://asktheman.xyz/-->
                     <img src="images/painting_hobby.jpg" />
 
@@ -97,9 +115,7 @@
 
                         <div class="card text-center" style="width: 170px;">
                             <!--Citation for image: https://www.reddit.com/r/40kLore/comments/i3t7to/collection_of_warhammer_40000_svg_faction_icons/-->
-                            <img height="100" width="170" src="images/Heretic Astartes.svg" alt="Heretic_Astartes"
-
-                            />
+                            <img height="100" width="170" src="images/Heretic Astartes.svg" alt="Heretic_Astartes"/>
                             <div class="card-body"> 
                                 <h4 class="card-title">Forces of Chaos</h4>
                                 <a href="https://warhammer40k.fandom.com/wiki/Forces_of_Chaos" target="_blank" class="btn btn-primary">Learn more</a>
@@ -108,15 +124,12 @@
 
                         <div class="card text-center" style="width: 170px;">
                             <!--Citation for image: https://www.reddit.com/r/40kLore/comments/i3t7to/collection_of_warhammer_40000_svg_faction_icons/-->
-                            <img height="100" width="170" src="images/Xenos.svg" alt="Xenos"
-
-                            />
+                            <img height="100" width="170" src="images/Xenos.svg" alt="Xenos"/>
                             <div class="card-body"> 
                                 <h4 class="card-title">The Xenos Threat</h4>
                                 <a href="https://warhammer40k.fandom.com/wiki/Xenos" target="_blank" class="btn btn-primary">Learn more</a>
                             </div>
                         </div>
-
                     </div> 
                 </div>
             <br>
@@ -131,7 +144,8 @@
                 <img src="images/miniature_3.jpg" style="width: 80%; margin-right: 10%; margin-left: 10%; margin-top: 10px;"/>
             </div>
         </div>
-                
+
+        <!--Footer with links to more resources for Warhammer 40K-->
         <div class="row" id="footer" style="color: #ffffff;">
             <h4 style="margin-left: 35%; margin-top: 20px;">Warhammer 40000</h4>
             <ul class="list-group" style="margin-left: 40%; list-style: none;">
